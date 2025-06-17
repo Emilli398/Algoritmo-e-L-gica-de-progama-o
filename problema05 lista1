@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    //Declaracao de variaveis 
+    real Altura,Peso_ideal 
+    //declaracao de contantes 
+    const real K=72.7 
+    const inteiro B=58 
+    //Entrada de dados 
+    escreva("Informe a altura") 
+    leia(Altura) 
+    //Processamento 
+    Peso_ideal=(K*Altura-B)
+    //Saida de dados 
+    escreva("o peso ideal e") 
+
+  }
+}
