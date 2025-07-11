@@ -1,0 +1,14 @@
+#include <stdio.h>
+  #include <string.h>
+ int main(){ 
+    char Nome_[50];
+ char Sobrenome_ [50];
+ printf("Informe o seu nome:"); 
+ scanf("%s", Nome_);
+ printf("Informe o seu sobrenome:");
+ scanf("%s",Sobrenome_);
+ printf("\nFormatoBrasileiro:%s %s\n",Sobrenome_);
+ printf("Outras línguas-formato: %s %s\n", Sobrenome_,Nome_); 
+ return 0;
+ }
+ 
