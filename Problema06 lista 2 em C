@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    float raio, altura, volume;
+
+    // Solicita os dados ao usuário
+    printf("Digite o raio da base da lata (em cm): ");
+    scanf("%f", &raio);
+
+    printf("Digite a altura da lata (em cm): ");
+    scanf("%f", &altura);
+
+    // Calcula o volume usando o valor de pi diretamente
+    volume = 3.14159 * raio * raio * altura;
+
+    printf("O volume interno da lata é: %.2f cm³\n", volume);
+
+    return 0;
+}
