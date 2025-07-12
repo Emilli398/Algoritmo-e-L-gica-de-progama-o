@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    float F, C;
+
+    // Solicita ao usuário que digite a temperatura em Fahrenheit
+    printf("Amanda está viajando!\n");
+    printf("Digite a temperatura em graus Fahrenheit: ");
+    scanf("%f", &F);
+
+    // Converte para Celsius usando a fórmula
+    C = ((F - 32) * 5) / 9;
+
+    // Mostra o resultado
+    printf("A temperatura em graus Celsius é: %.2f\n", C);
+
+    return 0;
+}
