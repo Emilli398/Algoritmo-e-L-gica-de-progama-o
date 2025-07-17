@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+//Declaracao de variaveis
+int a,b,c,soma,Subtra_,multi_,Divisao,resto_;
+printf("Informe o primeiro número: ");
+scanf("%d",&a);
+printf("Informe o segundo número:");
+scanf("%d",&b);
+printf("Informe o terceiro número:");
+scanf("%d",&c);
+soma=a+b;
+Subtra_=a-b;
+multi_=a*b;
+Divisao=a/b;
+resto_=a%c;
+//Saida de dados 
+printf("A soma do número %d com o número %d é igual a=%d \n",a,b,soma);
+printf("A subtrção do número %d com o número %d é igual a =%d\n",a,b,Subtra_);
+printf("A multiplicação do número %d com o número %d é igual a=%d\n",a,b,multi_);
+printf("O resultado da divisão é: %d\n", Divisao);
+printf("O resto da divisão entre %d e %d é: %d\n", a, c, resto_);
+}
+
+
+
