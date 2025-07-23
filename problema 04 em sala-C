@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    float Km,litros_, taxa;
+    printf("Informe a quantidade de kilômetros percorridos :");
+    scanf("%f",&Km);
+    printf("Informe a quantidade de litros que você colocou notanque para reabastecer:");
+    scanf("%f",&litros_);
+    //processamento 
+    taxa=Km/litros_;
+    printf("A taxa é:%f",taxa);
+
+    return 0;
+}
